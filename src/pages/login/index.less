@@ -1,0 +1,91 @@
+.login-content-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 64px;
+
+  .center-wrapper {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .left-wrapper {
+      width: 635px;
+      height: 406px;
+      margin-right: 300px;
+      position: relative;
+      background-repeat: no-repeat;
+      background-size: 100% auto;
+
+      .square {
+        position: absolute;
+      }
+
+      .square1 {
+        width: 73px;
+        height: 82px;
+        left: 304px;
+        top: 116px;
+        animation: cube1 2s linear 1s infinite alternate;
+      }
+
+      .square2 {
+        width: 114px;
+        height: 128px;
+        left: 368px;
+        top: 88px;
+        animation: cube2 2s linear 1s infinite alternate;
+      }
+
+      .square3 {
+        left: 442px;
+        top: 169px;
+        width: 91px;
+        height: 102px;
+        animation: cube3 2s linear 1s infinite alternate;
+      }
+    }
+
+    .login-wrapper {
+
+      .login-form-forgot {
+        float: right;
+      }
+
+      .login-form-button {
+        width: 100%;
+      }
+    }
+  }
+
+}
+
+@keyframes cube1 {
+  0% {
+    top: 116px;
+  }
+
+  100% {
+    top: 126px;
+  }
+}
+
+@keyframes cube2 {
+  0% {
+    top: 88px;
+  }
+
+  100% {
+    top: 108px;
+  }
+}
+
+@keyframes cube3 {
+  0% {
+    top: 169px;
+  }
+
+  100% {
+    top: 159px;
+  }
+}
